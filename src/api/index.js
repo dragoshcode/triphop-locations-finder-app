@@ -18,7 +18,6 @@ export const getPlacesData = async (type, sw, ne) => {
           'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
         },
       }
-      // project is finished, But now --> push to github everything else, style everything by yourself, create a Readme + GIF(google this)(check desktop ones), deploy, and think what else
     );
     return data;
   } catch (error) {

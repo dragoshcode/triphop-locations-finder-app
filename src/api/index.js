@@ -15,10 +15,10 @@ export const getPlacesData = async (type, sw, ne) => {
         },
         headers: {
           'x-rapidapi-host': 'travel-advisor.p.rapidapi.com',
-          'x-rapidapi-key':
-            '304c48a15emsh71c591c576f398bp1fbec3jsnb256163323ea',
+          'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
         },
       }
+      // project is finished, But now --> push to github everything else, style everything by yourself, create a Readme + GIF(google this)(check desktop ones), deploy, and think what else
     );
     return data;
   } catch (error) {
@@ -34,8 +34,7 @@ export const getWeatherData = async (lat, lng) => {
         {
           params: { lat, lon: lng },
           headers: {
-            'x-rapidapi-key':
-              '304c48a15emsh71c591c576f398bp1fbec3jsnb256163323ea',
+            'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
             'x-rapidapi-host': 'community-open-weather-map.p.rapidapi.com',
           },
         }

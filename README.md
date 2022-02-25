@@ -3,7 +3,8 @@
 
 <br/>
 
-A simple Travel Companion app which shows the interesting places around
+A simple Travel Companion app which shows the interesting places around <br/>
+ <br/>
 🔴P.S. Feel free to give access for google to your geolocation so the displayed stuff will be pointed to your city
 
 ## 🎯Links
